@@ -20,7 +20,8 @@ ARRIVAL_DATA = "MarinoAccessLog.csv"
 HISTORYRANGE_DAYS = 50
 DOW = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday",
        "Sunday"]
-DESIRED_DOW = ["Monday"]
+DESIRED_DOW = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday",
+       "Sunday"]
 
 def str_to_datetime(date_str):
     """ convert strings in the format M/D/YYYY H:MM:SS AM/PM to datetime objects
